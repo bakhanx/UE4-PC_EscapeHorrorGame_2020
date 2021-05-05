@@ -22,7 +22,7 @@ Pure BluePrint
 조사취소 : E<br>
 아이템 버리기 : R<br>
 
-## Key
+### Key
 
 ![3](https://user-images.githubusercontent.com/46181173/117107286-4ea7aa80-adbc-11eb-8a51-a237416805f4.png)
 문 손잡이 색과 일치하는 열쇠만 사용 가능
@@ -32,41 +32,42 @@ Pure BluePrint
 
 ## Item Blueprint class (Function)
 
-![function](https://user-images.githubusercontent.com/46181173/117107677-f02efc00-adbc-11eb-883e-0d584187a004.png)
+![function](https://user-images.githubusercontent.com/46181173/117107677-f02efc00-adbc-11eb-883e-0d584187a004.png)<br>
 1.PickUp 2.Drop 3.Inspect(Start) 4.Inspect(Stop)
 
-## 1. Pick up
+### 1. Pick up
 
 ![pickupkey](https://user-images.githubusercontent.com/46181173/117107670-ee653880-adbc-11eb-9ac0-66cd76ae8c49.png)
 
 ![pickup](https://user-images.githubusercontent.com/46181173/117107668-edcca200-adbc-11eb-853c-8f517247ae27.png)
 정해진 Item을 습득 했을 때 AttachToComponent를 통해 sanp을 하고, 이 item이 문을 열 수 있는 key와 일치하는지에 따라 다른 습득 사운드를 실행한다.
 
-## 2.Drop
+### 2.Drop
 
 ![drop](https://user-images.githubusercontent.com/46181173/117108847-bf4fc680-adbe-11eb-9319-e6ae359db494.png)
 카메라(플레이어)의 일정 위치 앞에 물건을 떨어뜨린다.
 
-## 3.Inspect Start
+### 3.Inspect Start
 
 ![startInspectKey](https://user-images.githubusercontent.com/46181173/117108852-c080f380-adbe-11eb-9d4f-fabdaed3bbea.png)
 ![startInspect](https://user-images.githubusercontent.com/46181173/117108851-bfe85d00-adbe-11eb-9930-7fadd6749197.png)
 화면 우측 하단에 control 인터페이스를 위젯을 통하여 보여주면서 Inspect 동안 플레이어의 카메라 회전을 disable하고 해당 키를 item을 회전할 수 있는 컨트롤로 able한다. Inspect중인 물체는 플레이어의 일정 위치 앞에 배치하여 보여준다.
 
-## 4.Inspect Stop
+### 4.Inspect Stop
 
 ![stopInspect](https://user-images.githubusercontent.com/46181173/117108854-c080f380-adbe-11eb-8e26-71ede978bb12.png)
-카메라 회전 키를 원상태로 돌리고, item의 location과 rotation 또한 원상태로 돌리고 부모로부터 상속을 제거한 후 타겟의 HUD를 다시 보여준다.
+카메라 회전 키, item의 location과 rotation를 원상태로 돌리고 부모로부터 상속을 제거한 후 타겟의 HUD를 다시 보여준다.
 
 ## Door
 
-![doorimg](https://user-images.githubusercontent.com/46181173/117108846-beb73000-adbe-11eb-8cac-7051b824c9dc.png)
 ![door](https://user-images.githubusercontent.com/46181173/117108843-be1e9980-adbe-11eb-9ea7-9b9b8f66e857.png)
+![doorimg](https://user-images.githubusercontent.com/46181173/117108846-beb73000-adbe-11eb-8cac-7051b824c9dc.png)
+<br>
 문에 BoxTrigger를 설정하여 트리거 범위 안에서 플레이어가 'Look At' 했을 때, 문이 닫혀 있으면서 현재 들고 있는 item이 Key인지 체크한 후, 해당 상황에 알맞는 message를 보여준다. 들고 있는 item이 해당 문에 알맞는 key인지 체크하여 문을 연다.
 
 ## My Character
 
-![mycharacter](https://user-images.githubusercontent.com/46181173/117108850-bfe85d00-adbe-11eb-96fb-273fd68a5dae.png)
+![mycharacter](https://user-images.githubusercontent.com/46181173/117108850-bfe85d00-adbe-11eb-96fb-273fd68a5dae.png)<br>
 Interactive : Inspect, Pickup(Key : E) <br>
 Click : OpenDoor, Rotate in inspect (Key : MSB) <br>
 Cancle : Drop (Key : E)
