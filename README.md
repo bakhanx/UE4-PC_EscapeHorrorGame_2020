@@ -50,6 +50,7 @@ Pure BluePrint
 ### 3.Inspect Start
 
 ![startInspectKey](https://user-images.githubusercontent.com/46181173/117108852-c080f380-adbe-11eb-9d4f-fabdaed3bbea.png)
+![frame](https://user-images.githubusercontent.com/46181173/117111124-1c994700-adc2-11eb-979b-9dd0e91fcffb.png)
 ![startInspect](https://user-images.githubusercontent.com/46181173/117108851-bfe85d00-adbe-11eb-9930-7fadd6749197.png)
 화면 우측 하단에 control 인터페이스를 위젯을 통하여 보여주면서 Inspect 동안 플레이어의 카메라 회전을 disable하고 해당 키를 item을 회전할 수 있는 컨트롤로 able한다. Inspect중인 물체는 플레이어의 일정 위치 앞에 배치하여 보여준다.
 
