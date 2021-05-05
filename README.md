@@ -1,32 +1,36 @@
-# UE4-PC_EscapeHorrorGame
+# UnrealEngine4-PC_EscapeHorrorGame
 
 Pure BluePrint
 
-## Red Night
+## Title : Red Night
 
 ![main](https://user-images.githubusercontent.com/46181173/117106234-78f86880-adba-11eb-92f3-82bc196fa454.png)<br>
-> 
+
 > - 1인개발 <br>
 > - 장르 : 공포/미스테리/탈출<br>
 > - 스토리라인 : 플레이어가 알 수 없는 집에 들어간 뒤 갇혀 곳곳에 숨겨진 열쇠를 찾아 집을 탈출한다.<br>
- 
+
 ## 사용자 인터페이스
 
 ![1](https://user-images.githubusercontent.com/46181173/117106616-27041280-adbb-11eb-9f13-d8e603297167.png)
 
-- 이동 : W A S D <br>
-- 카메라회전 : Mouse Drag<br>
-- 문열기 : LMB<br>
-- 아이템 습득 : E<br>
-- 조사하기(습득상태) : E<br>
-- 확대/축소(조사상태) : Mouse Scroll Up/Down<br>
-- 조사취소 : E<br>
-- 아이템 버리기 : R<br>
+> - 이동 : W A S D <br>
+> - 카메라회전 : Mouse Drag<br>
+> - 문열기 : LMB<br>
+> - 아이템 습득 : E<br>
+> - 조사하기(습득상태) : E<br>
+> - 확대/축소(조사상태) : Mouse Scroll Up/Down<br>
+> - 조사취소 : E<br>
+> - 아이템 버리기 : R<br>
 
 ## Item Blueprint class (Function)
 
 ![function](https://user-images.githubusercontent.com/46181173/117107677-f02efc00-adbc-11eb-883e-0d584187a004.png)<br>
-1.PickUp 2.Drop 3.Inspect(Start) 4.Inspect(Stop)
+
+- 1.PickUp
+- 2.Drop
+- 3.Inspect(Start)
+- 4.Inspect(Stop)
 
 ### 1. Pick up
 
@@ -44,7 +48,7 @@ Pure BluePrint
 
 ![startInspectKey](https://user-images.githubusercontent.com/46181173/117108852-c080f380-adbe-11eb-9d4f-fabdaed3bbea.png)
 ![frame](https://user-images.githubusercontent.com/46181173/117111124-1c994700-adc2-11eb-979b-9dd0e91fcffb.png)
-![startInspect](https://user-images.githubusercontent.com/46181173/117108851-bfe85d00-adbe-11eb-9930-7fadd6749197.png)
+![startInspect](https://user-images.githubusercontent.com/46181173/117108851-bfe85d00-adbe-11eb-9930-7fadd6749197.png)<br>
 화면 우측 하단에 control 인터페이스를 위젯을 통하여 보여주면서 Inspect 동안 플레이어의 카메라 회전을 disable하고 해당 키를 item을 회전할 수 있는 컨트롤로 able한다. Inspect중인 물체는 플레이어의 일정 위치 앞에 배치하여 보여준다.<br>
 특정 물체를 잡고 Inspect상태에서 rotate를 통하여 숨겨진 열쇠 발견할 수 있다.
 
@@ -63,9 +67,10 @@ Pure BluePrint
 ## My Character
 
 ![mycharacter](https://user-images.githubusercontent.com/46181173/117108850-bfe85d00-adbe-11eb-96fb-273fd68a5dae.png)<br>
-Interactive : Inspect, Pickup(Key : E) <br>
-Click : OpenDoor, Rotate in inspect (Key : MSB) <br>
-Cancle : Drop (Key : E)
+
+- Interactive : Inspect, Pickup(Key : E) <br>
+- Click : OpenDoor, Rotate in inspect (Key : MSB) <br>
+- Cancle : Drop (Key : E)
 
 ## Level Blueprint
 
