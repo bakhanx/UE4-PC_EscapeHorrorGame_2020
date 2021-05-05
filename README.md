@@ -77,3 +77,5 @@ Pure BluePrint
 ![levelBlueprint](https://user-images.githubusercontent.com/46181173/117108848-bf4fc680-adbe-11eb-8fdc-49fcd6765450.png)
 열쇠가 필요하지 않은 가장 첫번 째 문을 따로 만들어 문 근처에 BoxTrigger를 따로 배치하여, 트리거에 플레이어가 도착했을때 , 열고 들어온 문을 역으로 -90도 회전하여 빠르게 닫고 BGM을 시작한다.<br>
 마지막 탈출하는 문 밖에도 BoxTrigger를 배치하여, 플레이어가 트리거에 도착했을 때, 입력키를 모두 disable하고 카메라를 fadeout 하며 효과음과 함께 게임을 종료한다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3VrJY5Wlmtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
