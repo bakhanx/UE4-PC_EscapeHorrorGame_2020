@@ -27,10 +27,10 @@ Pure BluePrint
 
 ![function](https://user-images.githubusercontent.com/46181173/117107677-f02efc00-adbc-11eb-883e-0d584187a004.png)<br>
 
-- 1.PickUp
-- 2.Drop
-- 3.Inspect(Start)
-- 4.Inspect(Stop)
+> - 1.PickUp
+> - 2.Drop
+> - 3.Inspect(Start)
+> - 4.Inspect(Stop)
 
 ### 1. Pick up
 
@@ -68,9 +68,9 @@ Pure BluePrint
 
 ![mycharacter](https://user-images.githubusercontent.com/46181173/117108850-bfe85d00-adbe-11eb-96fb-273fd68a5dae.png)<br>
 
-- Interactive : Inspect, Pickup(Key : E) <br>
-- Click : OpenDoor, Rotate in inspect (Key : MSB) <br>
-- Cancle : Drop (Key : E)
+> - Interactive : Inspect, Pickup(Key : E) <br>
+> - Click : OpenDoor, Rotate in inspect (Key : MSB) <br>
+> - Cancle : Drop (Key : E)
 
 ## Level Blueprint
 
