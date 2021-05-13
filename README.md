@@ -5,10 +5,12 @@ Pure BluePrint
 ## Title : Red Night
 
 ![main](https://user-images.githubusercontent.com/46181173/117106234-78f86880-adba-11eb-92f3-82bc196fa454.png)<br>
-
-> - 1인개발 <br>
 > - 장르 : 공포/미스테리/탈출<br>
+> - 개발 : 1인개발 <br>
+> - 플랫폼 : PC <br>
+> - 언리얼 버젼 : 4.23.1
 > - 스토리라인 : 플레이어가 알 수 없는 집에 들어간 뒤 갇혀 곳곳에 숨겨진 열쇠를 찾아 집을 탈출한다.<br>
+
 
 ## 사용자 인터페이스
 
