@@ -5,6 +5,7 @@ Pure BluePrint
 ## Title : Red Night
 
 ![main](https://user-images.githubusercontent.com/46181173/117106234-78f86880-adba-11eb-92f3-82bc196fa454.png)<br>
+
 > - 장르 : 공포/미스테리/탈출<br>
 > - 개발 : 1인개발 <br>
 > - 플랫폼 : PC <br>
@@ -79,7 +80,26 @@ Pure BluePrint
 ![levelBlueprint](https://user-images.githubusercontent.com/46181173/117108848-bf4fc680-adbe-11eb-8fdc-49fcd6765450.png)
 열쇠가 필요하지 않은 가장 첫번 째 문을 따로 만들어 문 근처에 BoxTrigger를 따로 배치하여, 트리거에 플레이어가 도착했을때 , 열고 들어온 문을 역으로 -90도 회전하여 빠르게 닫고 BGM을 시작한다.<br>
 마지막 탈출하는 문 밖에도 BoxTrigger를 배치하여, 플레이어가 트리거에 도착했을 때, 입력키를 모두 disable하고 카메라를 fadeout 하며 효과음과 함께 게임을 종료한다.
-<br>
+<br><br>
+
+<p>
+<img src= "https://user-images.githubusercontent.com/46181173/118431592-aa095f00-b711-11eb-870f-f3f8a8336f62.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431623-bc839880-b711-11eb-92be-b4f0f09a91ec.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431681-dd4bee00-b711-11eb-99a4-56d42b605b60.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431661-d2915900-b711-11eb-8e4c-24d0b29050c1.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431696-e3da6580-b711-11eb-91b1-7f0f27fe08c7.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431732-f8b6f900-b711-11eb-8f13-98a0671a5435.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431751-00769d80-b712-11eb-8fe4-bc90da2604a8.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431773-0a000580-b712-11eb-85bc-fa25e518a365.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431786-13896d80-b712-11eb-942d-19ac9abdb6e9.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431816-2308b680-b712-11eb-9dbc-d7fbb6837ce9.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431835-2b60f180-b712-11eb-8f39-76479112b232.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431849-33b92c80-b712-11eb-80dc-aadb91c3f53b.png" width=45% height=45% > 
+<img src= "https://user-images.githubusercontent.com/46181173/118431906-521f2800-b712-11eb-99ea-8c67d62881c2.png" width=45% height=45% >
+
+<img src= "https://user-images.githubusercontent.com/46181173/118431889-4895c000-b712-11eb-9e4a-50431ec6900b.png" width=45% height=45% >
+
+</p>
 
 [![youtube](https://user-images.githubusercontent.com/46181173/117136174-fb951e00-ade2-11eb-862c-0eff3ffe8596.png)](https://youtu.be/3VrJY5Wlmtw?t=0s)<br>
 ↑ 클릭 [Youtube 이동하기]
